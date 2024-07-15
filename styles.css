@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e282eb;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d3d3d3;
+}
+
+#heartAnimation {
+    margin-top: 20px;
+    animation: pulse 1s infinite;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    width: 150px;
+}
+
+.heart {
+    font-size: 200px; /* Tamanho grande do coração */
+    animation: heartbeat 1s infinite; /* Animação de batimento */
+}
+
+/* Animação de batimento */
+@keyframes heartbeat {
+    0%, 20%, 50%, 80%, 100% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
