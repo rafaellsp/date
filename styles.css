@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e282eb;
+    background-color: #ff65f2;
     font-family: Arial, sans-serif;
 }
 
@@ -45,6 +45,11 @@ img {
     border-radius: 50%; /* Faz a imagem ficar redonda */
     overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
     object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    
 }
 
 .heart {
