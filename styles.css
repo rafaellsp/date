@@ -39,7 +39,12 @@ button:hover {
 }
 
 img {
-    width: 150px;
+    margin-top: 20px;
+    width: 160px; /* Defina a largura desejada */
+    height: 200px; /* Defina a altura desejada */
+    border-radius: 50%; /* Faz a imagem ficar redonda */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
+    object-fit: cover;
 }
 
 .heart {
